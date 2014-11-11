@@ -1,0 +1,473 @@
+a{
+    text-decoration: none;
+}
+#box1_detail h2 {
+    color: #1aa471;
+    font-size: 20px;
+}
+.new-value2 {
+    color: #3c6d86;
+    display: block;
+    font-family: "Open Sans",arial,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0 0;
+    padding: 5px;
+    text-align: right;
+}
+.google_offer .erp_offer .new-value2 span {
+    clear: both;
+    font-family: "Open Sans",arial,sans-serif;
+    line-height: 1.2em;
+}
+.google_offer .erp_offer .new-value2 {
+    background-color: #d2e6ef;
+    clear: both;
+    float: left;
+    font-family: "proxima_nova_semibold",Arial,sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+    width: 100%;
+}
+.go-360price {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 4px;
+    color: #2e7497;
+    float: left;
+    font-family: "proxima_nova_semibold",Arial,sans-serif;
+    font-size: 34px;
+    text-align: center;
+    width: 59%;
+}
+.offer_buynow {
+    background: none repeat scroll 0 0 #68c72d;
+    border-radius: 4px;
+    color: #fff !important;
+    float: right;
+    font-size: 25px !important;
+    margin-top: 0;
+    padding: 6px 56px;
+    text-align: center;
+}
+.google_offer .erp_offer .new-value2 .tax {
+    color: #67a7c7;
+    font-family: "proxima_nova_semibold",Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+.mee-wrapper {
+    background: none repeat scroll 0 0 #cee3ef;
+    margin: 0;
+    padding: 60px 0;
+}
+.mee-left-wrap {
+    float: left;
+    width: 30%;
+}
+.mee-left-wrap > h1 {
+    color: #04547d;
+    font-size: 30px;
+    line-height: 0.9em;
+    margin: 0 0 5px;
+}
+.mee-left-wrap > h3 {
+    color: #04547d;
+    font-family: proxima_nova_regular;
+    font-size: 14px;
+    margin: 0 0 30px;
+    padding: 0;
+}
+.mee-left-wrap > h3 span {
+    font-size: 23px;
+    left: -2px;
+    position: relative;
+    top: 4px;
+}
+.mee-right-wrap {
+    float: right;
+    width: 65%;
+}
+.mee-left-wrap > h2 {
+    color: #04547d;
+    font-size: 18px;
+    line-height: 1em;
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: left;
+}
+.mee-gif-wrap {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 0 2px 2px #a9c2d5;
+    float: right;
+    padding: 5px;
+}
+.mee-gif-wrap > img {
+    width: 645px;
+}
+section.mee-section {
+    margin-bottom: 40px;
+}
+.mee-cotentblock-wrapper {
+}
+.mee-cotentblock-wrapper div.content-left > h1 {
+    color: #2581b0;
+    font-size: 35px;
+    line-height: 0.9em;
+    margin: 159px 0 5px;
+}
+.mee-cotentblock-wrapper div.content-left > h2 {
+    color: #2581b0;
+    font-family: proxima_nova_regular;
+    font-size: 16px;
+    line-height: 1em;
+    margin: 0 0 30px;
+}
+.left {
+    float: left !important;
+}
+.right {
+    float: right !important;
+}
+.content-left {
+    width: 37%;
+}
+.content-right {
+    width: 60%;
+}
+.content-right > .mee-gif-wrap > img {
+    width: 575px;
+}
+.mee-feature-wrap {
+    border: 2px solid #a9c2d5;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 2px #cee3ef;
+}
+.mee-single-feature {
+    border-bottom: 2px solid #cee3ef;
+    overflow: hidden;
+    padding-bottom: 52px;
+    padding-top: 52px;
+}
+.mee-freedom-wrap {
+    background: none repeat scroll 0 0 #3c6d86;
+    height: 126px;
+    text-align: center;
+}
+.mee-freedom-wrap > h1 {
+    color: #fff;
+    display: inline;
+    font-size: 35px;
+    line-height: 3.8em;
+}
+.mee-freedom-wrap > h3 {
+    color: #fff;
+    display: inline;
+}
+.mee-section h1, .mee-section p, .mee-section a, .mee-section h4, .mee-section h2 {
+    font-family: proxima_nova_regular;
+}
+.sf5-banner h1 {
+    color: #fff;
+    font-size: 28px;
+    width: 480px;
+}
+.sf5-banner h2 {
+    color: #fff;
+    font-size: 18px;
+}
+.sf-qoute-wrap {
+    background: none repeat scroll 0 0 #fffcf5;
+    margin: 0;
+    padding: 0;
+}
+blockquote {
+    border-left: 0 none;
+}
+.bq3 {
+    background: url("//www.makesbridge.com/wp-content/uploads/2014/10/qoute.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    color: #575757;
+    line-height: 18px;
+    margin: 50px auto 10px;
+    padding-left: 55px;
+    width: 860px;
+}
+.bq3 p {
+    background: url("//www.makesbridge.com/wp-content/uploads/2014/10/qoute2.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+    color: #2e7497;
+    font-size: 24px;
+    line-height: 35px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+    text-align: center;
+}
+.container {
+    width: 1000px;
+}
+.rayan-portfolio div:first-child {
+    margin-right: 10px;
+}
+.rayan-portfolio h4 {
+    color: #2e7497;
+    margin: 0;
+    text-align: right;
+}
+.rayan-portfolio p {
+    color: #2e7497;
+    font-family: proxima_nova_regular;
+    margin: 0;
+    text-align: right;
+}
+.rayan-portfolio p a {
+    color: #00aaff;
+    font-family: proxima_nova_regular;
+}
+.sf-tabs div {
+    background: none repeat scroll 0 0 #eaf7fc;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px 30px;
+}
+.sf-tabs img {
+    float: left;
+    margin-right: 24px;
+    margin-top: 10px;
+}
+.sf-tabs h2 {
+    color: #42738b;
+    font-family: proxima_nova_regular;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.sf-tabs p {
+    color: #42738b;
+    font-family: proxima_nova_regular;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.sf5-trialform .forminputbg {
+    height: 35px;
+}
+.sf5-trialform #offerform {
+    background-color: #fff;
+    border: 1px solid #75c8f6;
+    margin-top: 6px;
+    padding: 23px 20px 23px 45px;
+}
+.sf5-trialform #offerform .getstarted {
+    background: none repeat scroll 0 0 #68c72d;
+    width: 150px;
+}
+.sf5-trialform #offerform h2 {
+    color: #ff9722;
+    font-weight: bold;
+}
+.sf5-trialform {
+    width: auto;
+}
+.sf5-features {
+    border-bottom: 1px solid #c3d2da;
+    padding: 40px 32px;
+}
+.sf5-features p {
+    color: #3c6d86;
+    font-size: 14px;
+}
+.sf5-features h2 {
+    color: #3c6d86;
+    font-size: 20px;
+}
+.sf-partner-wrap {
+    background: none repeat scroll 0 0 #e7edf0;
+}
+.sf-partner-wrap h2 {
+    color: #19617f;
+    font-size: 18px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.rayan-portfolio {
+    margin-bottom: 25px;
+}
+.container-fluid.sf-partner-wrap .container {
+    padding: 35px 0;
+}
+.row.sf5-features:last-child {
+    border-bottom: medium none;
+}
+#accForm .forminputbg {
+    width: 320px;
+}
+.forminputbg {
+    height: 36px;
+}
+#accForm .forminputbg input[type="text"], #accForm .forminputbg input[type="password"], #accForm .forminputbg select, #accForm2 .forminputbg {
+    padding: 3px 0 3px 7px;
+    width: 180px;
+}
+#accForm table tr:nth-child(4) {
+    display: none;
+}
+#accForm #salesrep{
+    width: 115px !important;
+}
+#accForm #interest{
+    width: 114px !important;
+}
+#accForm #pwd2{
+    width: 135px !important;
+}
+#accForm #email_volume{
+    width: 113px !important;
+}
+
+/*======================================
+    MKS BLOG 
+=====================================*/
+.mksblog h1 , .mksblog h4 ,.mksblog h2 ,.mksblog p {font-family: proxima_nova_regular;}
+
+.mksblog-heading{
+    background: url("//www.makesbridge.com/wp-content/uploads/2014/10/Press-Release.jpg") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+    height: 190px;
+}
+.mksblog-heading h1{
+    color: #fff;
+    font-size: 30px;
+    font-family: proxima_nova_regular;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+.mkspost-wrap{
+     border-top: 1px solid #dae3e8;
+    margin-top: 10%;
+    position: relative;
+}
+.mkspost-wrap h4{
+      background: none repeat scroll 0 0 #fff;
+    color: #3c6d86;
+    font-size: 13px;
+    margin-left: -2px;
+    padding: 0 8px 0 0;
+    position: absolute;
+    top: -22px;
+}
+.mkspost-wrap span{
+      margin-right: 6px;
+    position: relative;
+    top: -3px;
+}
+.mkspost-wrap h2{
+    color: #4799c3;
+    font-size: 20px;
+    font-family: proxima_nova_semibold;
+}
+.mkspost-wrap p{
+    color: #313131;
+    font-size: 15px;
+    font-family: proxima_nova_light;
+}
+.mkspost-wrap a{
+    text-decoration: none;
+}
+.category-container{
+ background: #eaf0f5;
+ width: 96%;
+ padding: 20px 30px;
+ min-height: 299px;
+ margin: 27px 0;
+}
+.category-container h2{
+    color: #437ca0;
+    font-family: proxima_nova_semibold;
+    font-size: 18px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.category-container ul {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #d8e1eb;
+    list-style: none outside none;
+    margin: 20px 0;
+    padding: 0;
+}
+ .category-container ul li {
+    border-bottom: 1px solid #d8e1eb;
+    border-top: 1px solid #fff;
+    line-height: 36px;
+}
+
+.category-container ul li a {
+
+    text-decoration: none;
+}
+
+.my_date{
+    margin-left: 11px;
+}
+.breadCrum{
+ margin: 30px 0;
+    padding: 0 15px;
+}
+.breadCrum a , .breadCrum span{
+    color : #afc1d0;
+    text-decoration: none;
+}
+.bdactive{
+    color: #3c6d86 !important;
+    font-size: 13px;
+}
+.mksblog-request-demo {
+    background: url('//www.makesbridge.com/wp-content/uploads/2014/10/1.jpg');
+    width: 290px;
+    height: 89px;
+}.mksblog-chat {
+    background: url('//www.makesbridge.com/wp-content/uploads/2014/10/2.jpg');
+    width: 290px;
+    height: 89px;
+     margin: 20px 0;
+}
+
+.textwidget > h2 {
+    color: #fff;
+    font-family: proxima_nova_light !important;
+    font-size: 18px;
+    padding: 25px;
+    text-transform: uppercase;
+    width: 205px;
+}
+.textwidget strong {
+    font-family: proxima_nova_semibold;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.mksblog-chat .textwidget h2{
+    font-family: proxima_nova_semibold !important;
+    font-size: 24px;
+
+}
+.mksblog-chat .textwidget span{
+    text-transform: none;
+}
+.category a:hover{
+    text-decoration: none;
+}
+.ajaxLoad{
+    width: 200px;
+    margin: 0 auto;
+}
+.ajaxLoad > button {
+    background: none repeat scroll 0 0 #36c2c1;
+    border: medium none;
+    border-radius: 4px;
+    color: #fff;
+   padding: 10px 60px;
+}
+#load_more {
+    min-width: 188px; 
+}

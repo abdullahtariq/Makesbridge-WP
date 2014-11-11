@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+a.playvideo { float:right; background:url(../images/play-icon.png) no-repeat 0 2px; padding-left:18px; height:15px; color:#3C6D86; 
+text-decoration:none; margin:10px 10px 0; font-size:13px; }
+a.playvideo:hover { float:right; background:url(../images/play-icon-hover.png) no-repeat 0 2px; padding-left:18px; height:15px; color:#5ecaf1; 
+text-decoration:none; margin:10px 10px 0; font-size:13px; }
+.page-template-page-vg1-php .thumbnails li,.thumbnails.vg li { width:520px; margin-bottom:35px; margin-right:35px; }
+.page-template-page-vg1-php .thumbnail .img,.vg .thumbnail .img { float:left; height:175px; width:270px; overflow: hidden;}
+.page-template-page-vg1-php .thumbnail .caption, .vg .thumbnail .caption { float:left; width:220px; height:155px; position:relative; min-height:inherit; padding:10px 10px 10px; }
+.page-template-page-vg1-php .thumbnail .btm-bar, .vg .thumbnail .btm-bar { width:240px; margin:0 0 0 -10px; padding:0 5px; }
+.startbrn_bg { width:250px; height:90px; line-height:90px; border-radius:60px; background-color:#95d98e; opacity:0.8; margin:auto; text-align:center;
+position:relative; top:200px; }
+.startbrn_bg a { font-family:'proxima_nova_light',Arial,sans-serif; font-size:48px; color:#ffffff; text-decoration:none; padding-left:80px;
+background:url(../images/vl-playbtn.png) no-repeat 0 0; position:relative; top:10px; }
+.head_bar { width:100%; height:238px; line-height:238px; background-color:#ecf3fa; }
+.head_bar h2 { margin:0px 0 20px; font-family:'proxima_nova_light',Arial,sans-serif; font-size:48px; color:#2581b0; text-align:center; }
+.head_bar h3 { color:#2581b0; font-family:'proxima_nova_light',Arial,sans-serif; font-size:24px; line-height:1em; text-align:center; }
+
+#rightform
+{ float:left; width:450px; margin:0px 0 0 30px; position:relative; }
+
+#rightform h3
+{ text-align:left; color:#ff9900; font-family:'proxima_nova_regular',Arial,sans-serif; font-size:30px; line-height:1em;
+margin-bottom:40px; }
+#rightform .dirarrow
+{ position:absolute; z-index:1000; right:65px; top:70px; }
+#offerform { padding:20px 20px 20px 45px; border:solid 1px #dddddd; background-color:#FBFBFB; border-radius:3px; }
+#offerform .forminputbg { padding:3px 0 3px 7px; width:350px; margin-bottom:15px; }
+#offerform #offer_button { width:300px; height:40px; line-height:40px; margin-top:5px; font-family:'proxima_nova_regular',Arial,sans-serif;
+ font-size:20px; color:#ffffff; background-color:#ff9900; border-radius:3px; }
+.featvideo_left { float:left; width:540px; background-color:#ecf3fa; text-align:center; padding:30px; text-align:center; }
+.featvideo_right { float:right; width:375px; padding-top:25px; }
+.featvideo_left h2 { font-family:'proxima_nova_regular',Arial,sans-serif; font-size:18px; line-height:1.2em; color:#3c6d86; margin-bottom:40px; }
+.featvideo_left h2 span { font-family:'proxima_nova_semibold',Arial,sans-serif; }
+.featvideo_right #rightform { float:none; margin:0; width:inherit; }
+.featvideo_right #rightform h3 { font-family:'proxima_nova_semibold',Arial,sans-serif; font-size:22px; color:#ef4300; margin-bottom:25px; 
+padding-left:10px; line-height:1.2em; margin-top:0; }
+.featvideo_right #offerform { padding:30px 20px; background-color:#ecf5fa; border:0; margin:0; }
+.featvideo_right #offerform .forminputbg { width:328px; border:0; }
+.featvideo_right #offerform #offer_button { width:328px; background-color:#94cf1e; font-family:'proxima_nova_bold',Arial,sans-serif; font-size:16px; margin-top:20px; }
+.vl .thumbnail:hover { cursor:default; 
+	-webkit-box-shadow: -1px 5px 13px 3px rgba(208,220,226,0.35);
+-moz-box-shadow: -1px 5px 13px 3px rgba(208,220,226,0.35);
+box-shadow: -1px 5px 13px 3px rgba(208,220,226,0.35);
+	background:#fff;
+}
+.vl .thumbnail .img > div a { position:absolute; background-color:inherit; height:195px; }
+.vl .thumbnail .img > div { display:block; }
+.vl .thumbnail .img > div a.previewbtn:hover
+{
+	background-color:inherit;
+	text-decoration:none;
+}
+.vl .thumbnail .img > div a.previewbtn1:hover {
+	background-color:inherit;
+	text-decoration:none;	
+}
+.vl .thumbnail .img > div a.selectbtn:hover
+{
+	background-color:inherit;
+	text-decoration:none;
+}
+.vl .thumbnail:hover .img > div, .vl .thumbnail:hover .caption > div.hoverbtns { display:none; }
+.vl .thumbnail .img a { display:block; position:absolute; z-index:1000; width:71px; height:71px; top:35%; left:40%; }
+.casl_boxes { width:425px; float:left; padding:25px 30px 25px 40px; position:relative; font-family:'proxima_nova_regular',Arial,sans-serif; line-height:1em; font-size:24px; color:#fff; }
+.casl_box1 { background-color:#02aeef; }
+.casl_box2 { background-color:#94cf1e; margin-left:10px; }
+.challange_bar .casl_boxes h2 { font-family: 'proxima_nova_bold',Arial,sans-serif; font-size:25px; color:#fff; margin-bottom:20px; text-transform:none; }
+.challange_bar .casl_boxes h3 { margin-bottom:20px; font-family:'proxima_nova_regular',Arial,sans-serif; line-height:1em; font-size:24px; color:#fff; }
+.challange_bar .casl_boxes p { font-family:'proxima_nova_regular',Arial,sans-serif; line-height:1em; font-size:16px; color:#fff; }
+.challange_bar .casl_boxes img { margin:25px 0; }
+.casl_topbanner h1 { width:450px; font-size:42px; color:#3c6d86; font-family:proxima_nova_regular; text-align:left }
+.casl_topbanner h2 { margin-top:20px; width:450px; font-size:18px; color:#3c6d86; line-height:1.1em; text-align:left; }
+.casl_topbanner .banncontent { text-align:left; padding:100px 0 0 0px; }
+.challange_bar { width:100%; background-color:#ecf3fa; padding:50px 0; text-align:center; }
+.challange_bar h2 { font-size:36px; color:#3c6d86; margin:0 auto 50px; text-align:center; text-transform:uppercase; }

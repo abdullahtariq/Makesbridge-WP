@@ -1,0 +1,127 @@
+/* Newsletter Subscribtion Textfield Abdullah */
+.wp-mks-newsletter {
+    float:right;
+    width: 100%;
+    height: 10%; 
+}
+
+.input-width {
+  width: 92% !important;
+}
+.wp-mks-newsletter #email{
+      padding: 4px;
+     height: 32px;
+  border: none !important;
+  background-color: #E7F5FC;
+  font-size: 1em;
+  float:right;
+   -webkit-transition: all 0.6s linear;
+  -moz-transition: all 0.6s linear;
+  transition: all 0.6s linear;
+  box-shadow: none;
+  min-width: 178px;
+  color:#7b98a7;
+  border-radius: 3px;
+  max-width: 219px;
+}
+.wp-mks-newsletter #email:hover {
+  width: 100% !important;
+  float: right;
+}
+.wp-mks-newsletter #email:focus{
+  background-color: #DEFBFF;
+}
+.wp-mks-newsletter .labelEdit{
+  display: none;
+}
+.wp-mks-newsletter ul li{
+  background: #fff !important;
+  padding: 0px !important;
+}
+.wp-mks-newsletter ul {
+  float: right;
+}
+.wp-mks-newsletter #basic_email {
+  display: inline-block;
+  float: left;
+}
+.wp-mks-newsletter #html_submit{
+  float: left;
+  /*padding-top:0px !important; */
+}
+.wp-mks-newsletter #formcontents .btn-large{
+   background: url("../images/subscribe.png") no-repeat 0px 2px !important;
+   
+    box-shadow: none;
+    min-width: 30px !important;
+    text-indent: -9999px;
+    font-size: 0px !important;
+    line-height: 14px !important;
+    border-radius: 0px !important;
+    border: 0px !important;
+    margin-left: 3px;
+    margin-top: -4px;
+    padding-top: 20px;
+}
+.subs-input-wrap{
+  position: relative;
+}
+.wp-mks-newsletter .formareacontents{
+  background: #fff !important;
+  box-shadow: none;
+}
+.wp-mks-newsletter .form-input-wide{
+  width: 100%;
+}
+.wp-mks-newsletter #BMS_SUBMIT{
+  display: none;
+  position: absolute;
+right: 2px;
+top: 5px;
+
+}
+.wp-mks-newsletter #BMS_SUBMIT:hover{
+background: url("../images/subscribe.png") no-repeat scroll 0px -33px rgba(0, 0, 0, 0) !important;
+}
+.successfully-sub-wrap span{
+  color:#49c62b;
+  margin-left: 6px;
+}
+.successfully-sub-wrap{
+margin-left: 16px;
+padding-top: 5px;
+clear: both;
+display: none;
+}
+.wp-mks-newsletter #email:hover::-webkit-input-placeholder {
+   color: #7b98a7;
+}
+.wp-mks-newsletter #email:hover:-moz-placeholder { /* Firefox 18- */
+   color: #7b98a7;  
+}
+
+.wp-mks-newsletter #email:hover::-moz-placeholder {  /* Firefox 19+ */
+   color: #7b98a7;  
+}
+
+.wp-mks-newsletter #email:hover:-ms-input-placeholder {  
+   color: #7b98a7;  
+}
+.wp-mks-newsletter #email::-webkit-input-placeholder {
+   color: #93BCD0;
+}
+.wp-mks-newsletter #email:-moz-placeholder { /* Firefox 18- */
+   color: #93BCD0;  
+}
+
+.wp-mks-newsletter #email::-moz-placeholder {  /* Firefox 19+ */
+   color: #93BCD0;  
+}
+
+.wp-mks-newsletter #email:-ms-input-placeholder {  
+   color: #93BCD0;  
+}
+
+.footer_r_content {
+  padding-right: 4px;
+}

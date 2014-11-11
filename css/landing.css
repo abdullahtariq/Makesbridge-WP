@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+.landing1_topbanner { background-color:#e9edf6; padding:25px 0; height:inherit; }
+.landing1_topbanner .banncontent { width:1100px; padding:0; margin:0 auto; }
+.landing1_topbanner h1 { font-family:'proxima_nova_regular',Arial,sans-serif; font-size:34px; color:#2581b0; margin-bottom:25px; text-align:center; 
+line-height:1.1em; }
+#landingform { width:420px; margin:80px auto 0; position:relative; }
+#landingform h3 { text-align:center; color:#ff9900; font-family:'proxima_nova_regular',Arial,sans-serif; font-size:30px; line-height:1em;
+margin-bottom:20px; /*width:430px;*/ }
+#landingform .dirarrow { position:absolute; z-index:1000; right:20px; top:70px; }
+#landingform h2 { font-family:'proxima_nova_semibold',Arial,sans-serif; font-size:28px; color:#2581b0; text-align:left; margin-bottom:0px; 
+margin-left:20px; position:relative; /*top:20px;*/ }
+#offerform { padding:30px 30px 10px; border:solid 1px #dddddd; background-color:#FBFBFB; border-radius:3px; }
+#offerform .getstarted { width:280px; float:right; background-color:#94cf1e; margin-right:0; }
+#offerform .home_termslink { font-family:'proxima_nova_regular',Arial,sans-serif; font-size:14px; color:#2581b0; margin-top:15px; }
+#offerform .home_termslink a { color:#2ebeef; text-decoration:underline; font-family:'proxima_nova_regular',Arial,sans-serif; font-size:14px; }
+#offerform .workemailhelp a { color:#2ebeef; text-decoration:none; font-family:'proxima_nova_regular',Arial,sans-serif; font-size:14px; }
+.sfsu_left { float:left; width:525px; text-align:center; padding:30px 35px 20px 40px; background-color:#ebf4f9; }
+.sfsu_right { float:right; width:420px; background-color:#e9edf6; padding:10px 0 20px; }
+.sfsu_left .content { margin-bottom:10px; }
+.sfsu_left .content p { font-family:'proxima_nova_regular',Arial,sans-serif; font-size:20px; line-height:1.1em; }
+.sfsu_left h3 { font-family:'proxima_nova_regular',Arial,sans-serif; font-size:24px; margin:20px 0 0; padding:0; line-height:1.2em; }
+.sfsu_right #landingform h3 { font-size:23px; width:350px; margin-left:auto; margin-right:auto; }
+.sfsu_right #landingform h2 { font-size:20px; margin-left:25px; }
+.sfsu_right #landingform .dirarrow { top:30px; right:40px; }
+.laptop { float:left; margin-top:-10px; margin-left:20px; background:url(../images/laptop.png) no-repeat 0 0; width:828px; height:483px; position:relative; }
+.laptop a { display:block; width:570px; height:450px; }
+.laptop img { position:absolute; z-index:1000; margin:auto; top:210px; left:260px; }
+.spfo { margin:30px auto; width:500px; text-align:center; }
+.spfo h2 { font-family:'proxima_nova_semibold',Arial,sans-serif; font-size:28px; }
+.spfo p { line-height:1.1em; margin:30px 0; font-family:'proxima_nova_regular',Arial,sans-serif; font-size:24px; }
+.apx_offer {
+	padding: 17px;
+	background-color: #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width:966px;
+	margin:30px auto;
+ }
+ 
+.apx_offer_l {
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 76%;
+ }
+ 
+.apx_offer_r {
+	float: right;
+	width: 24%;
+ }
+ 
+.apx_headline {margin: 0 0 12px;}
+ 
+.apx_hhl {
+	width: 85px;
+	float: left;
+ }
+ 
+.apx_hhr {
+	float: left;
+	width: 88%;
+ }
+ 
+.long_form {}
+ 
+.long_form_wrap {
+	background: rgba(76, 151, 189, 0.94);
+	padding: 37px 42px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin: 30px 0 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	opacity: 0.9;
+ }
+ 
+.long_form_content {}
+ 
+.columns_apx {
+	width: 100%;
+	float: left;
+	margin-bottom: 0;
+ }
+ 
+.one_third_apx {width: 31.3%}
+ 
+.five_sixth {width: 82.67%}
+ 
+.one_third_apx {
+	position: relative;
+	margin-right: 2%;
+	float: left;
+	margin-bottom: 0.25em;
+ }
+ 
+.last_apx {
+	margin-right: 0 !important;
+	clear: right;
+ }
+ 
+.ibox_img2 {width: 100%;}
+ 
+.ibox_img_wrap {}
+ 
+.app_box2 {
+	background-color: #f4f9fb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 10px;
+	min-height: 99px;
+ }
+ 
+.app_box2_l {
+	float: left;
+	width: 30%;
+ }
+ 
+.app_box2_r {
+	float: right;
+	width: 66%;
+ }
+ 
+.ibox_head2 {
+	font-weight: 700;
+	font-size: 12px;
+	margin: 0 0 6px;
+	font-family: 'proxima_nova_light', Arial, sans-serif;
+	color: #517e9c;
+ }
+ 
+.ibox_p2 {
+	font-weight: 400;
+	font-size: 12px;
+	font-family: 'proxima_nova_light', Arial, sans-serif;
+	margin: 0 0 8px;
+	color: #2581b0;
+ }
+ 
+.ibox_celwrap2 {}
+ 
+.apx_offer_wrap {
+	background: #FFFFFF;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+ }
+.offer_buynow {
+    color: #02AEEF;
+    float: left;
+	font-family: 'Open Sans',arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+} 
+.seedetail2 {
+	color: #02AEEF;
+	float: right;
+	font-family: 'Open Sans',arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 10px 0 0;
+ }
+ 
+.h2box {
+	color: #2daf23;
+	font-weight: 700;
+	font-size: 15px;
+	margin: 23px 0 6px;
+	font-family: 'proxima_nova_light', Arial, sans-serif;
+ }
+ 
+.box_p2 {
+	font-size: 13px;
+	margin: 0px 0 17px;
+	font-family: 'proxima_nova_light', Arial, sans-serif;
+ }
+ 
+.value2 {
+	font-size: 20px;
+	color: #3c6d86;
+	font-family: 'Open Sans',arial,sans-serif;
+	display: block;
+	text-align: right;
+	margin: 15px 0 0;
+	padding: 5px;
+	font-weight: bold;
+ }
+ 
+	.value2 span {
+		font-family: 'Open Sans',arial,sans-serif;
+		color: #659ebb;
+		font-size: 14px;
+		position: relative;
+	 }
+ 
+.msg_new2_wrap {
+	padding: 13px;
+	margin: 0px 0 0;
+ }
+ 
+.msg_new2 {
+	font-family: 'proxima_nova_light', Arial, sans-serif;
+	margin: 0 0 12px;
+	font-size: 14px;
+ }
+ 
+.partner_msg_info {
+	font-family: 'proxima_nova_light', Arial, sans-serif;
+	font-size: 14px;
+ }
+ 
+.partner_site_logo {
+	float: right;
+	margin: 21px 0 0;
+ }
+.clr { clear:both; }
+.pain h2 { font-family: 'proxima_nova_semibold', Arial, sans-serif; font-size: 24px; margin:0 auto 20px; line-height:1.1em; }
+.pain h3 { font-family:'proxima_nova_regular', Arial, sans-serif; font-size:18px; margin:20px auto 5px; line-height:1.1em; }
+.pain td, .pain th { border-top:solid 1px #000; border-left:solid 1px #000; padding:10px; }
+.pain td { text-align:left; }
+.pain td:nth-child(3), .pain th:nth-child(3) { border-right:solid 1px #000; }
+.pain tr:last-child td { border-bottom:solid 1px #000; }
+.nocontract h2 { text-align:center; font-family:'proxima_nova_bold', Arial, sans-serif; font-size: 29px; line-height:1.2em; margin-bottom:35px; }
+.nocontract .boxes { float:left; width:222px; padding:25px 15px 0px; height:230px; color:#fff; text-align:left; margin-bottom:21px; border-radius:2px; }
+.nocontract .boxes a { text-decoration:underline; color:#fff; margin-top:10px; display:block; }
+.nocontract .boxes p { color:#fff; line-height:1.2em; }
+.nocontract .boxgreen { background-color:#4ba90b; }
+.nocontract .boxblue { background-color:#067ab5; padding-top:40px; height:215px; }
+.nocontract .boxblue a { margin-top:20px; }
+.boxorange { background-color:#ef6f01; }
+.nocontract h3 { font-family: 'proxima_nova_semibold', Arial, sans-serif; font-size: 42px; color:#fff; margin-bottom:10px; margin-top:0; }
+.nocontract .boxblue h3 { margin-bottom:20px; }
+#thankyou_page .sfsu_left ul { margin-left:40px; }
+#thankyou_page .sfsu_left li { float:none; text-align:left; width:inherit; }
+
+.pain .featvideo_left h2 { font-family:'proxima_nova_bold',Arial,sans-serif; font-size:30px; margin-bottom:10px; }
+.pain .featvideo_left h3 { font-family:'proxima_nova_bold',Arial,sans-serif; font-size:18px; margin:15px auto 30px; text-align:center; }
+.pain .featvideo_left p { font-family:'proxima_nova_regular',Arial,sans-serif; font-size:18px; line-height:1em; }
+.pain .featvideo_left { width:590px; padding:30px 5px 5px; }
+.pain .featvideo_left table { width:100%; background-color:#ffffff; }
+.pain .featvideo_left table th { background-color:#6fafd0; font-family:'proxima_nova_bold',Arial,sans-serif; font-size:16px; color:#fff; }
+.pain .featvideo_left table th:first-child { text-align:left; }
+.pain .featvideo_left table td, 
+.pain .featvideo_left table tr,
+.pain .featvideo_left table th
+{
+	border:0;
+}
+.pain .featvideo_left table td, .pain .featvideo_left table tr { border:0; font-family:'proxima_nova_semibold',Arial,sans-serif; font-size:14px; 
+color:#749fb5; line-height:1.2em; }
+.pain .featvideo_right { padding:20px 15px 40px 12px; background-color:#ecf5fa; width:348px; }
+.pain .featvideo_right #rightform h3 { margin-top:0; margin-bottom:20px; padding-left:0; line-height:1em; }
+.pain .featvideo_right #rightform h2 { font-family:'proxima_nova_bold',Arial,sans-serif; font-size:22px; color:#6fafd0; margin-bottom:20px; }
+.pain .featvideo_right #offerform { padding:0; }
+.pain .offerboxes { border-radius: 2px;
+    height: 348px;
+    margin: 0;
+    width: 495px; }
+.pain #offerbox1 { background-color: #d4ffe0; }
+.pain #offerbox2 {
+    background-color: #ffedee;
+    margin-left: 10px;
+}
+.pain .offerboxes h2 { font-family:'proxima_nova_bold',Arial,sans-serif; font-size:18px; color:#2581b0; margin:0px; height:80px; line-height:80px; }
+.pain .offerboxes .logos { background:none; padding:0; margin:10px 35px 0 30px; }
+.pain #offerbox2 .logos { margin-top:20px; }
+.pain #offerbox1 .logos,.pain #offerbox2 .logos { background:none; }
+.pain .spfo p { font-size:16px; }
+.pain #leftoffers h3 { font-size:24px; }
+.pain #offerform .home_termslink { margin-top:25px; }
+.tag { padding-top:12px; text-align:left; background-color:#fff; }
+.tag h2 { font-family: 'proxima_nova_bold',Arial,sans-serif;
+    font-size: 29px;
+    line-height: 1.2em;
+    margin: 0 auto 25px; }
+.tag h2 span { color:#02aeef; }
+.tag h3 { font-family: 'proxima_nova_bold',Arial,sans-serif; font-size:18px; margin:10px 0; }
+.tag li { font-family:'proxima_nova_regular',Arial,sans-serif; font-size:14px; margin-bottom:12px; background:url(../images/libg.png) no-repeat 0 4px;
+padding-left:20px; }
+.tag h3.offer { font-size:29px; line-height:1.3em; border:solid 2px #afd3e5; border-radius:3px; padding:30px 70px; text-align:center; }
+.tag h3.offer span { font-family:'proxima_nova_bold',Arial,sans-serif; color:#ff6a36; }

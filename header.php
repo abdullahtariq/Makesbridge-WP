@@ -42,10 +42,10 @@ if($_REQUEST['add-to-cart'])
 		<meta name="globalsign-domain-verification" content="JHVtiEgo0Glmo6OSyaWUIhcFQ7GX9v9Q3mhSoC0DRw" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="title" content="MakesBridge" />
+		<!-- <meta name="title" content="MakesBridge" />
 		<meta name="description" content="MakesBridge Landing Page" />
 		<meta name="keywords" content="marketing automation, mass email, sales automation, campaign creation, easy editor, analytics, small business, email template, image gallery" />
-		
+		 -->
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/mks_icon.css" media="screen" />
 

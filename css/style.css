@@ -2352,11 +2352,11 @@ padding-left:25px; margin-bottom:12px; }
 	border-left-color: #fff;
 	bottom: -10px
 }
-#accForm .forminputbg { padding:3px 0 3px 7px; width:290px; }
+#accForm .forminputbg { padding:3px 0 3px 7px; width:300px; }
 #accForm .forminputbg input[type="text"], 
 #accForm .forminputbg input[type="password"], 
 #accForm .forminputbg select,
-#accForm2 .forminputbg { padding:3px 0 3px 7px; width:290px; }
+#accForm2 .forminputbg { padding:3px 0 3px 7px; width:193px; }
 #accForm2 .forminputbg input[type="text"], 
 #accForm2 .forminputbg input[type="password"], 
 #accForm2 .forminputbg select

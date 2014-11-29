@@ -233,7 +233,7 @@ h3 {
 }
 .carousel-inner > .item > img {
   position: absolute;
-  top: 0;
+  top: -22px;
   left: 0;
   min-width: 100%;
 }

@@ -39,7 +39,7 @@ Template Name: Calculator Feature Template
     </title>
 
 <!-- Bootstrap core CSS -->
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/font-awesome.min.css" rel="stylesheet">
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
@@ -49,10 +49,14 @@ Template Name: Calculator Feature Template
 <!-- Custom styles for this template -->
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/theme.css" rel="stylesheet">
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/js/source/jquery.fancybox.css?v=2.1.4" media="screen" />
 </head>
 <!-- NAVBAR
 ================================================== -->
+
 <body>
+  
+  <input type="hidden" id="postUrl" value="<?php echo bloginfo('wpurl'); ?>/wp-admin/admin-ajax.php">
   <?php 
   $showCalc = get_field('show_calculator');
   $onlyCalc = get_field('only_calculator'); 
@@ -69,13 +73,13 @@ Template Name: Calculator Feature Template
   </div>
 </div>
 <h3 class="topcalltoaction"><span class="glyphicon glyphicon-earphone"></span> <span>+1 408 740 8224</span>
-  <button type="button" class="btn btn-success freeBtn">Free 30 day Trial</button>
+  <button type="button" class="btn btn-success freeBtn" onclick="showsupop('signup_now','1');">Free 30 day Trial</button>
 </h3>
 <!-- Carousel
     ================================================== -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel" style="<?php if($onlyCalc == 1){?> display:none; <?php } ?>">
   <div class="carousel-inner">
-    <div class="item active"> <img class="makesbridge-slide" src="<?php echo get_template_directory_uri(); ?>/assets/images/makesbridge-slide.jpg" alt="First slide">
+    <div class="item active"> <img class="makesbridge-slide" src="//www.makesbridge.com/wp-content/uploads/2014/11/unnamed2-or.jpg" alt="First slide">
       <div class="container">
         <div class="carousel-caption">
           <div class="headerblock">mass email marketing with a difference<span>.</span></div>
@@ -84,21 +88,21 @@ Template Name: Calculator Feature Template
             <div class="signupformInner">
               <form class="form-horizontal" role="form">
                 <div class="form-group form-group-lg">
-                  <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Name">
+                  <input class="form-control fc-name" type="text" id="formGroupInputLarge" placeholder="Full name">
                 </div>
                 <div class="form-group form-group-lg">
-                  <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Email">
+                  <input class="form-control fc-email" type="text" id="formGroupInputLarge" placeholder="Work email">
                 </div>
                 <div class="form-group form-group-lg">
-                  <input class="form-control" type="text" id="formGroupInputLarge" placeholder="Telephone">
+                  <input class="form-control fc-phone" type="text" id="formGroupInputLarge" placeholder="Telephone">
                 </div>
-                <p><a class="btn btn-lg btn-success 30daybtn" href="#" role="button">Signup Free 30 Day Trial</a></p>
+                <p><a class="btn btn-lg btn-success 30daybtn" href="#" role="button" onclick="showsupop('signup_now','1');">Signup Free 30 Day Trial</a></p>
               </form>
             </div>
           </div>
         </div>
       </div>
-      <div class="strapline">Used by over 8 million people, rated 5 stars on the Salesforce platform</div>
+      <div class="strapline">Used by over 8 million people, rated 5 Stars by Salesforce customers.</div>
     </div>
   </div>
 </div>
@@ -158,6 +162,7 @@ Template Name: Calculator Feature Template
  
 <!-- <div id="comparision"></div> -->
   <div class="features-title">compare the competition<span class="greendot">.</span></div>
+    <div class="salesforce-image"><img src="//www.makesbridge.com/wp-content/uploads/2014/11/rating1.png"></div>
   <div class="table-responsive">
     <table class="table table-bordered">
       <thead>
@@ -172,7 +177,7 @@ Template Name: Calculator Feature Template
       </thead>
       <tbody>
         <tr class="darkgrey">
-          <td class="titleproduct">CRM integration</td>
+          <td class="titleproduct">CRM Integration</td>
           <td><i class="fa fa-check green"></i></td>
           <td><i class="fa fa-times green"></i></td>
           <td><i class="fa fa-times green"></i></td>
@@ -262,16 +267,16 @@ Template Name: Calculator Feature Template
       </tbody>
     </table>
   <div id="pricing"></div>
-    <div class="applybtn"><a role="button" href="#" class="btn btn-lg btn-success 30daybtn tablebtn scroll-link">Signup For Free</a></div>
+    <div class="applybtn"><a role="button" href="#" class="btn btn-lg btn-success 30daybtn tablebtn scroll-link" onclick="showsupop('signup_now','1');">Signup For Free</a></div>
   </div>
   <div class="laptop">
     <form id="signup" name="signup" class="col-md-12 shortform" method="post" action="/thankyou/">
       <div class="form-group formbtm">
         <h1 class="30daytrial">Free 30-Day Trial</h1>
-        <input type="text" class="form-control" id="firstname" placeholder="first name">
-        <input type="tel" class="form-control" id="telephone" placeholder="telephone">
-        <input type="text" class="form-control" id="email" placeholder="email">
-        <button type="submit" class="btn btn-success formbtm2">Get Started</button>
+        <input type="text" class="form-control fc-name" id="firstname" placeholder="First name">
+        <input type="tel" class="form-control fc-phone" id="telephone" placeholder="Telephone">
+        <input type="text" class="form-control fc-email" id="fc-email" placeholder="Work email">
+        <button type="button" onclick="showsupop('signup_now','1');" class="btn btn-success formbtm2">Get Started</button>
       </div>
     </form>
   </div>
@@ -289,7 +294,7 @@ Template Name: Calculator Feature Template
     <!-- Three columns of text below the carousel -->
     <div class="row">
         <div class="iframe-calc-warap" style="<?php if($showCalc != 1){?> display:none; <?php } ?>">
-      <iframe style="width:1172px;height: 940px;border:none;" src="http://www.makesbridge.com/calculator/index.html?header=n"></iframe>
+      <iframe style="width:100%;height: 940px;border:none;" allowfullscreen="" src="<?php echo get_field( "calculator_url" ); ?>"></iframe>
   </div>
     </div>
   </div>
@@ -329,13 +334,64 @@ Template Name: Calculator Feature Template
 </div>
 <!-- /.container --> 
 
+
+
+<!-- Fancy Box HTML
+    ================================================== --> 
+<div class="fancybox-overlay fancybox-overlay-fixed" style="width: auto; height: auto; background: none repeat scroll 0% 0% rgba(230, 239, 243, 0.9); display: none;">
+  <div tabindex="-1" class="fancybox-wrap fancybox-desktop fancybox-type-inline fancybox-opened" style="height: auto; position: absolute; top: 50%; left: 50%; margin-top:-270px; opacity: 1;">
+    <div class="fancybox-skin" style="padding: 0px; width: auto; height: auto;">
+      <div class="fancybox-outer">
+        <div class="fancybox-inner" style="height: 550px;">
+          <iframe id="video_frame" width="780" height="420" frameborder="no" src="//player.vimeo.com/video/90175265?title=0&amp;byline=0&amp;portrait=0"></iframe>
+            <!--<div class="btm-bar"> <span><span class="icon view"></span><em>14</em></span></div>-->
+        </div>
+      </div>
+      <a href="javascript:;" class="fancybox-item fancybox-close" title="Close" onclick="hidesupop()"></a></div>
+  </div>
+</div>
+
+<div class="signuppop wp-pop" id="signup_now">
+  <?php
+    $su_conn = get_post(390); 
+    echo $su_conn->post_content;
+    ?>
+</div>
+<div class="signuppop pagecontent wp-pop" style="width: 960px; display: none; margin:20px 0; height:470px; padding:20px; position:relative; overflow-y:scroll;" 
+id="termspop">
+      <a class="goback" onClick="togglePops()">&lt;&lt; Go Back</a>
+      <?php
+      $term = get_post(640); 
+      setup_postdata( $term );
+      the_content();
+      ?>
+</div>
+<style type="text/css">
+  .salesforce-image{
+        margin: 0 auto;
+        width: 73%;
+    }
+</style>
 <!-- Bootstrap core JavaScript
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script> 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/source/jquery.fancybox.js?v=2.1.4"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/custom.js"></script>
+
+<?php  
+  if($showCalc == 1 && $onlyCalc == 1){
+    echo "<script>$('#pgsrc').val('calculator-only')</script>";
+  }
+  else if($showCalc == 1){
+    echo "<script>$('#pgsrc').val('calculator-added');</script>";
+  }else{
+    echo "<script>$('#pgsrc').val('feature')</script>";
+  }
+
+?>
 </body>
 </html>

@@ -302,12 +302,12 @@ get_header(); ?>
 							return false;
 					}
                 </script>
-                <form id="accForm2" class="formStyle1 accForm2" onsubmit="return validateAccountForm2();" action="<?php echo get_option('siteurl'); ?>/congratulations" style="width:70%; margin:auto; position:relative;" name="accForm2" method="post">
+                <form id="accForm2" class="formStyle1 accForm2 " onsubmit="return validateAccountForm2();" action="<?php echo get_option('siteurl'); ?>/congratulations" style="width:70%; margin:auto; position:relative;" name="accForm2" method="post">
                     <input type="hidden" value="trial" id="frmFld_MKS_Package2" name="frmFld_MKS_Package2">
                     <input type="hidden" value="" id="frmFld_CRM_Tool2" name="frmFld_CRM_Tool2">
                     <input type="hidden" value="trial - connections" id="source2" name="source2">
                     <div class="form" style="position: relative; margin-top:0px;">
-                    <table cellspacing="0" cellpadding="2" width="100%" border="0">
+                    <table cellspacing="0" cellpadding="2" width="100%" border="0" class="connection-forminputbg">
                     <tbody>    
                     <tr>
                     <td colspan="2" style="height:15px;">
@@ -581,4 +581,9 @@ get_header(); ?>
     </div>
   </div>-->
 </div>
+<style type="text/css">
+ .forminputbg {
+    width: 310px !important;
+}
+</style>
 <?php get_footer(); ?>

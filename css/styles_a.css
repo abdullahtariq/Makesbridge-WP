@@ -331,11 +331,11 @@ blockquote {
 .mksblog h1 , .mksblog h4 ,.mksblog h2 ,.mksblog p {font-family: proxima_nova_regular;}
 
 .mksblog-heading{
-    background: url("//www.makesbridge.com/wp-content/uploads/2014/10/Press-Release.jpg") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
-    height: 190px;
+    /*background: url("//www.makesbridge.com/wp-content/uploads/2014/10/Press-Release.jpg") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+    height: 190px;*/
 }
 .mksblog-heading h1{
-    color: #fff;
+    color: #94CF1E;
     font-size: 30px;
     font-family: proxima_nova_regular;
     text-align: center;
@@ -377,10 +377,10 @@ blockquote {
 }
 .category-container{
  background: #eaf0f5;
- width: 96%;
- padding: 20px 30px;
- min-height: 299px;
- margin: 27px 0;
+ width: 96%;                                           
+ padding: 20px 30px;                                           
+ min-height: 299px;                                           
+ margin: 27px 0;                                           
 }
 .category-container h2{
     color: #437ca0;

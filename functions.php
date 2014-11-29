@@ -485,6 +485,7 @@ function ajaxmethods()
 			  'uText'=>urlencode($uText),
 			  'chValue'=>urlencode($chValue),
 			  'type'=>'cr',
+			  'frmFld_lead_source'=>urlencode($src),
 			  'frmFld_Current Provider'=>urlencode($provider),
 			  'frmFld_Other Text'=>urlencode($othertext),
 			  'frmFld_MKS Package'=>urlencode($frmFld_MKS_Package),
@@ -1724,7 +1725,7 @@ function videos_func( $atts ){
 	), $atts ) );
 	$video = get_post($id);
 	//$imgsize = getimagesize($imgpath);
-	return '<a style="width:'. $width .'px; height:'. $height .'px;" class="wp-video-lightbox" href="javascript:void(0)" title="" onclick="addView2('. $video->ID .',\'http://player.vimeo.com/video/'. get_post_meta($video->ID,'video_id',true) .'?width=800&amp;height=450\',800,450)" ></a>';
+	return '<a style="width:'. $width .'px; height:'. $height .'px;" class="wp-video-lightbox" href="javascript:void(0)" title="" onclick="addView2('. $video->ID .',\'//player.vimeo.com/video/'. get_post_meta($video->ID,'video_id',true) .'?width=800&amp;height=450\',800,450)" ></a>';
 }
 add_shortcode( 'videos', 'videos_func' );
 

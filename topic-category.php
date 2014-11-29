@@ -34,7 +34,7 @@ if ( !$pagename && $id > 0 ) {
   <input type="hidden" name="total_records" id="total_records" value="" />
 
     <div class="row">
-      <div  class="breadCrum">
+      <div  class="breadCrum" style="display:none;">
         <a href="<?php bloginfo( 'url' ); ?>">Home</a><span> > </span><a class="bdactive" href="<?php echo site_url( '/'.$pagename.'/', 'http' ); ?>">Makesbridge Blog</a>       
       </div><!-- Breadcrums  -->
       <div class="col-xs-12 col-md-8 ">

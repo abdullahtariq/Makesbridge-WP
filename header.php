@@ -30,8 +30,7 @@ if($_REQUEST['add-to-cart'])
 			// Add the blog description for the home/front page.
 			$site_description = get_bloginfo( 'description', 'display' );
 			if ( $site_description && ( is_home() || is_front_page() ) )
-				echo " | $site_description";
-		
+				echo "$site_description | ";
 			// Add a page number if necessary:
 			if ( $paged >= 2 || $page >= 2 )
 				echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );			
@@ -42,10 +41,10 @@ if($_REQUEST['add-to-cart'])
 		<meta name="globalsign-domain-verification" content="JHVtiEgo0Glmo6OSyaWUIhcFQ7GX9v9Q3mhSoC0DRw" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- <meta name="title" content="MakesBridge" />
+		<meta name="title" content="MakesBridge" />
 		<meta name="description" content="MakesBridge Landing Page" />
 		<meta name="keywords" content="marketing automation, mass email, sales automation, campaign creation, easy editor, analytics, small business, email template, image gallery" />
-		 -->
+		
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/mks_icon.css" media="screen" />
 
@@ -149,6 +148,14 @@ if($_REQUEST['add-to-cart'])
 					$('.goback').css('display','none');
 					$('.fancybox-wrap').css('margin-left','-480px');
 					$('.fancybox-inner').append($('#terms2pop'));
+				}
+				else if(n=='4'){
+					$('.goback').css('display','none');
+					$('.fancybox-wrap').css('margin-left','-480px');
+					$('#features_now > div').show();
+					$('.fancybox-inner').append($('#features_now'));
+					$('.fancybox-inner').css('overflow-y','scroll');
+					$('.fancybox-inner').css('height','580px');
 				}
 				else
 				{
@@ -254,7 +261,7 @@ window.lpTag=window.lpTag||{};if(typeof window.lpTag._tagCount==='undefined'){wi
                 </div>
             </div>
             <div class="right_header">
-                <a class="top_button log_in" href="https://mks.bridgemailsystem.com/pms/login.jsp">Log In</a>
+                <a class="top_button log_in" href="https://www.bridgemailsystem.com/pms/login.jsp">Log In</a>
                 <a class="top_button sign_up" href="#" onclick="showsupop('signup_now','1');">Sign Up</a>
                 <a class="top_button rdemo" href="<?php bloginfo('url'); ?>/request-demo">Request Demo</a>
             </div>

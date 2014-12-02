@@ -116,6 +116,8 @@ get_header(); session_start(); ?>
 		$term = $wp_query->queried_object;
 		echo $term->description;
 		?></p>
+		 <h3>Automate marketing and sales</h3>
+  		 <p>Streamline follow up and sales alerts in less than one hour</p>
         <!--Monthly billing, no contracts. Because we know our clients don't want to go anywhere else.-->
     </div>
     <a class="top_button sign_up sign_up_free left" href="#" onclick="showsupop('signup_now','1');">Signup Now!</a> </div>
@@ -136,7 +138,7 @@ get_header(); session_start(); ?>
 		    <div class="main_wrap">
 		    	<div class="left-wrapper"><h2>Cost Calculator</h2></div><div class="right-wrapper"><h3 onclick="showsupop('features_now','4');" class="feature-price-lists">View Feature List <img style="position: relative; top: 8px;" src="<?php echo get_template_directory_uri(); ?>/images/listicon.png" /></h3></div>
 		        <div class="iframe-calc-warap" style="">
-		      <iframe style="width:100%;height: 940px;border:none;" allowfullscreen="" src="//makesbridge.com/calculator/index.html?header=n"></iframe>
+		      <iframe style="width:100%;height: 940px;border:none;" allowfullscreen="" src="//makesbridge.com/calculator42x/index.html?header=n"></iframe>
 		  </div>
 		    </div>
 		  </div>
@@ -152,7 +154,7 @@ get_header(); session_start(); ?>
         <div class="topbar">
           <div class="clear"></div>
           <div class="content">
-            <h3>Want to send more emails?</h3>
+            <h3>Want to send more than 50,000 emails?</h3>
             <p><a href="<?php bloginfo('url'); ?>/request-demo">Click Here</a> to get a quote for your choice of email volume.</p>
           </div>
           <a href="<?php bloginfo('url'); ?>/request-demo" class="req_quote">Request Quote</a>
@@ -484,8 +486,8 @@ get_header(); session_start(); ?>
         </div>
       </div>
       <div style="text-align:center;"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/logos.png" width="184" height="59" style="margin:14px auto 10px; border:0;" /></div>
-      <p class="integration">* All subscriptions integrate with <strong>Salesforce</strong> and <strong>Netsuite</strong>.</p>
-    </div>
+      <p class="integration">* All subscriptions integrate with <strong>Salesforce</strong> , <strong>Netsuite</strong>, <strong>Highrise</strong>, <strong>Google Drive</strong> and <strong>Google Contacts</strong>.</p>
+    </div> 
   </div>
 </div>
 <div class="signuppop wp-pop" id="features_now" >
@@ -542,7 +544,7 @@ get_header(); session_start(); ?>
 			</div>
 			<div class="clear"></div>
       	</div><!-- Prices Wrapper -->
-      		<div class="package-spend"><h2>You'll get</h2></div>
+      		<div class="package-spend"><h2 style="left: 44%;">You'll get</h2></div>
         <div class="shareprpage" style="right:0;">
         	<form method="post" id="topdf1" name="topdf1" action="<?php echo get_template_directory_uri(); ?>/mpdf/pdfgen.php" onsubmit="return generatePDF('products1','topdf1','pkgs_html')">
                 <div class="clear"></div>
@@ -762,7 +764,7 @@ $main_features[] = explode('],[',$post->post_content);
             	<?php echo get_post_meta($post->ID,'additional_seats',true); ?> per additional seat
             </sub></div>
           <div class="package-textwidget">
-            <h2><?php echo get_field("number_of_emails",$post->ID); ?> <span>emails/mo.</span></h2>
+            <h2 style="display:none;"><?php echo get_field("number_of_emails",$post->ID); ?> <span>emails/mo.</span></h2>
             <?php
                       if($woocommerce_loop['loop'] > 1)
 					  {
@@ -814,6 +816,7 @@ $main_features[] = explode('],[',$post->post_content);
 	
       </div>
 </div>
+<!--  -->
 <script type="text/javascript">
 $(document).ready(function(){
 
@@ -843,7 +846,7 @@ $(document).ready(function(){
 	margin-bottom: 60px;
 }	
 .sign_up_free{
-border:1px solid #15aeec; -webkit-border-radius: 3px; -moz-border-radius: 3px;width: 117px;border-radius: 3px;text-transform:none;margin: 30px 0 36px;font-size:14px;font-family:proxima_nova_regular; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: 1px 1px 0 rgba(0,0,0,0.3); color: #FFFFFF;
+border:1px solid #15aeec; -webkit-border-radius: 3px; -moz-border-radius: 3px;width: 117px;border-radius: 3px;text-transform:none;margin: 15px 0 0px;font-size:14px;font-family:proxima_nova_regular; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: 1px 1px 0 rgba(0,0,0,0.3); color: #FFFFFF;
  background-color: #49c0f0; background-image: -webkit-gradient(linear, left top, left bottom, from(#49c0f0), to(#2CAFE3));
  background-image: -webkit-linear-gradient(top, #49c0f0, #2CAFE3);
  background-image: -moz-linear-gradient(top, #49c0f0, #2CAFE3);
@@ -910,13 +913,18 @@ border:1px solid #15aeec; -webkit-border-radius: 3px; -moz-border-radius: 3px;wi
 }
 .email-millions-wrap{
     line-height: 55px;
-    margin: 30px 0 0;
+    margin: 20px 0 0;
     text-align: left;
     width: 480px;
 }
 .email-millions-wrap h2{
 	color: #494949;
-    margin-bottom: 12px;
+
+}
+.email-millions-wrap h3{
+	margin-top: 15px;
+	color: #494949;
+
 }
 .left-free-wrapper{
 	margin-left: 112px;
@@ -930,6 +938,13 @@ border:1px solid #15aeec; -webkit-border-radius: 3px; -moz-border-radius: 3px;wi
 }
 .feature-price-lists{
 	cursor: pointer;
+}
+.free-signup {
+    height: 200px;
+    overflow: hidden;
+}
+.free-signup-wrap {
+    height: 200px;
 }
 </style>
 <?php get_footer(); 

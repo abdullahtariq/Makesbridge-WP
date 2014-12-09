@@ -14,7 +14,8 @@ get_header(); ?>
 				$('.lovedimg').css('top','64px');
 			else
 				$('.lovedimg').css('top','54px');
-			$(this).addClass('packagebox-active');				
+			$(this).addClass('packagebox-active');	
+						
 		},function(){
 			$(this).removeClass('packagebox-active');
 			$('.lovedimg').css('top','64px');

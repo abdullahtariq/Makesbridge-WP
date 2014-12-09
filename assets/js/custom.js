@@ -56,6 +56,8 @@ if (typeof console === "undefined") {
 				}
 				if($('.fc-email').val()){
 					$('#email').val($('.fc-email').val());
+				}if($('.fc-company').val()){
+					$('#company').val($('.fc-company').val());
 				}
 				$('#video_frame').hide();
 				$('.signuppop').css('display','none');
@@ -75,6 +77,14 @@ if (typeof console === "undefined") {
 					$('.fancybox-wrap').css('margin-left','-480px');
 					$('.fancybox-inner').append($('#terms2pop'));
 				}
+				else if(n=='4'){
+					$('.goback').css('display','none');
+					$('.fancybox-wrap').css('margin-left','-480px');
+					$('#features_now > div').show();
+					$('.fancybox-inner').append($('#features_now'));
+					$('.fancybox-inner').css('overflow-y','scroll');
+					$('.fancybox-inner').css('height','580px');
+				}
 				else
 				{
 					$('.fancybox-wrap').css('margin-left','-400px');					
@@ -84,7 +94,12 @@ if (typeof console === "undefined") {
 					$('#email').val($('#email1').val());*/
 				if($('#crms'))
 					$('#frmFld_CRM_Tool').val($('#crms').val());
-				$('#source').val('trial - home');
+				if($('#source-val').val()){
+					$('#source').val($('#source-val').val());
+					}
+					else{
+					$('#source').val('trial - home');
+					}
 				return false;
 			}
 			function togglePops()

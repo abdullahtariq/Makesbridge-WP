@@ -138,7 +138,7 @@ get_header(); session_start(); ?>
 		    <div class="main_wrap">
 		    	<div class="left-wrapper"><h2>Cost Calculator</h2></div><div class="right-wrapper"><h3 onclick="showsupop('features_now','4');" class="feature-price-lists">View Feature List <img style="position: relative; top: 8px;" src="<?php echo get_template_directory_uri(); ?>/images/listicon.png" /></h3></div>
 		        <div class="iframe-calc-warap" style="">
-		      <iframe style="width:100%;height: 940px;border:none;" allowfullscreen="" src="//makesbridge.com/calculator42x/index.html?header=n"></iframe>
+		      <iframe style="width:100%;height: 940px;border:none;" allowfullscreen="" src="//makesbridge.com/calculator4294/index.html?header=n"></iframe>
 		  </div>
 		    </div>
 		  </div>
@@ -485,7 +485,7 @@ get_header(); session_start(); ?>
           <div class="clear"></div>
         </div>
       </div>
-      <div style="text-align:center;"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/logos.png" width="184" height="59" style="margin:14px auto 10px; border:0;" /></div>
+      <div style="text-align:center;"><img alt="" src="<?php echo get_template_directory_uri(); ?>/images/logos-1.png" width="550" style="margin:14px auto 10px; border:0;" /></div>
       <p class="integration">* All subscriptions integrate with <strong>Salesforce</strong> , <strong>Netsuite</strong>, <strong>Highrise</strong>, <strong>Google Drive</strong> and <strong>Google Contacts</strong>.</p>
     </div> 
   </div>
@@ -947,5 +947,6 @@ border:1px solid #15aeec; -webkit-border-radius: 3px; -moz-border-radius: 3px;wi
     height: 200px;
 }
 </style>
+
 <?php get_footer(); 
 ?>

@@ -36,18 +36,13 @@ if ( !$pagename && $id > 0 ) {
                   
                   <div class="topic_content">
                      <div class="topic_item">
-                       <?php 
-                        
-                       $terms = get_terms("topics-category"); 
-
+                       <?php $terms = get_terms("topics-category"); 
                     foreach ( $terms as $term ) {
                         $term_link = get_term_link( $term, '' );
                         if( is_wp_error( $term_link ) )
                         continue; ?>
                       <?php $termlink = $term->taxonomy.'?topic='.$term->slug ;?>
-                       <?php if($term->term_id != '138'){  ?>
                <a href="<?php echo site_url( $termlink, 'http' ); ?>"><?php echo $term->name; ?></a>  
-                      <?php } ?>
            <?php 
                 } 
                  
@@ -94,14 +89,7 @@ if ( !$pagename && $id > 0 ) {
      'post_status' => 'publish',
      'orderby' => 'post_date',
      'order' =>  'Desc',
-     'showposts' =>  '4',
-     'tax_query' => array(
-    array(
-      'taxonomy' => 'topics-category',
-      'field' => 'slug',
-      'terms' => 'all'
-    )
-  )
+     'showposts' =>  '4'
    );
   $blogs = get_posts($args); 
   

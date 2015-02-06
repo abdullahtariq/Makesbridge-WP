@@ -1653,13 +1653,29 @@ function getBlogs($blogs)
 	  foreach($blogs as $blog):
 		  
 		 
-		 $my_date = get_the_time('d-M-Y', $blog->ID);
-		  		  	
+		 $my_date = get_the_time('d', $blog->ID);
+		 $my_month = get_the_time('M', $blog->ID);
+		 if (has_post_thumbnail($blog->ID) ){
+								  $medium_image_url =   wp_get_attachment_image_src( get_post_thumbnail_id($blog->ID), 'medium');
+								  $domain = get_site_url(); // returns something like http://domain.com
+  								 $relative_url = str_replace( $domain, '', $medium_image_url[0] );
+  								 $image = $relative_url;
+  			}
+		  else{
+		  						  $image = get_template_directory_uri().'/images/370x240.jpg';
+							  }	
            		
-			$str .= '<div class="mkspost-wrap"><h4 class="mksblog-date"><span><img src="http://www.makesbridge.com/wp-content/uploads/2014/10/calendar.png"></span>'.$my_date.'
-			</h4><div class="caption">
+			$str .= '<div class="post_hidden_wrap">
+						<div class="pdate">
+                           <div class="pdate_in">
+                              <p class="date_num">'.$my_date.'</p>
+                              <p class="date_month">'.$my_month.'</p>
+                           </div>
+                        </div>
+                        <div class="post_wrap">
+                        <div class="postl"><img class="post_thumb_img" src="'.$image.'"/></div><div class="postr">
 			  	<a href="'.get_permalink( $blog->ID ).'"><h2>'. $blog->post_title .'</h2></a>';	
-			  	$str .= '<p>'.$blog->post_excerpt.'</p>	</div></div>';	   
+			  	$str .= '<p>'.$blog->post_excerpt.'</p> <a href="'.get_permalink( $blog->ID ).'">Read More</a>	</div><div class="clr"></div></div></div>';	   
 						
 		 
 		$i++;

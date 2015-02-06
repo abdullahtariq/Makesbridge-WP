@@ -188,7 +188,7 @@ blockquote {
     border-left: 0 none;
 }
 .bq3 {
-    background: url("//www.makesbridge.com/wp-content/uploads/2014/10/qoute.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    background: url("http://www.makesbridge.com/wp-content/uploads/2014/10/qoute.png") no-repeat scroll left top rgba(0, 0, 0, 0);
     color: #575757;
     line-height: 18px;
     margin: 50px auto 10px;
@@ -196,7 +196,7 @@ blockquote {
     width: 860px;
 }
 .bq3 p {
-    background: url("//www.makesbridge.com/wp-content/uploads/2014/10/qoute2.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
+    background: url("http://www.makesbridge.com/wp-content/uploads/2014/10/qoute2.png") no-repeat scroll right bottom rgba(0, 0, 0, 0);
     color: #2e7497;
     font-size: 24px;
     line-height: 35px;
@@ -224,6 +224,9 @@ blockquote {
 .rayan-portfolio p a {
     color: #00aaff;
     font-family: proxima_nova_regular;
+}
+a:hover{
+    text-decoration: none;
 }
 .sf-tabs div {
     background: none repeat scroll 0 0 #eaf7fc;
@@ -328,106 +331,453 @@ blockquote {
 /*======================================
     MKS BLOG 
 =====================================*/
-.mksblog h1 , .mksblog h4 ,.mksblog h2 ,.mksblog p {font-family: proxima_nova_regular;}
+/*Universal*/
+.mainfull{width: 100%;}
+.main_wrap{width: 1000px; margin: auto;}
 
-.mksblog-heading{
-    /*background: url("//www.makesbridge.com/wp-content/uploads/2014/10/Press-Release.jpg") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
-    height: 190px;*/
+
+.header{}
+.header_wrap{padding: 35px 0;}
+.logo{width: 199px; height: 44px; margin: auto auto; display: block;border: none;}
+.logo_a{
+    display: block;
+    width: 202px;
+    margin: auto auto;
+    border: none;
 }
-.mksblog-heading h1{
-    color: #94CF1E;
-    font-size: 30px;
-    font-family: proxima_nova_regular;
+
+.menu{padding: 0 0 22px;margin: 0px 0 16px;}
+.menu_wrap{}
+
+.banner{
+/*    background-image: url(../images/main-bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;*/
+    
+
+    background: #43b9ea url(../images/full_img.jpg) repeat bottom center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 3px solid #ffffff;
+}
+.banner_wrap{}
+.headline_blog{
+}
+
+.headline_blog h2{
+    font-size: 40px;
+    line-height: 100%;
+    font-family: 'proxima_nova_semibold', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.topic_text{
+    color: #ffffff;
+    font-size: 26px;
+    float: left;
+    line-height: 26px;
+}
+.topicicon{
+    color: #ffffff;
+    font-size: 26px;
+    float: right;
+}
+
+.topic_wrap{
+    width: 130px;
+    margin: 5px auto 2px;
+    cursor: pointer;
+    height: 25px;
+}
+
+.topic_item{
+    text-align: center;
+}
+.topic_item a{
+    color: #ffffff; 
+    font-size: 18px;  
+    line-height: 54px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 12px;
+    margin: 7px;
+    white-space: nowrap;
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.topic_item a:hover{
+    color: #2581b0;
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+
+.topic_content{display: none;margin: 40px 0 0;}
+.topic_padding{
+    height: 50px;
+}
+
+
+
+/*Blog Content*/
+
+.blogcontent{
+    background: #e4eef3;
+}
+.blogcontent_wrap{}
+.blog_tline{
+    background: url("../images/tline.jpg") center center repeat-y;
+}
+
+.post_hidden_wrap {
+    padding: 20px 0 0;
+}
+.pdate{
+    width: 70px;
+    background: #ffffff;
+    text-align: center;
+    height: 70px;
+    -webkit-border-radius: 100%; 
+    -moz-border-radius: 100%; 
+    border-radius: 100%;
+    border: 3px solid #e4eef3;
+    margin: 0px auto 0;
+    position: relative;
+    top: 35px;
+}
+
+.pdate_in{
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.date_num{
+    font-size: 24px;
+    font-family: 'proxima_nova_semibold', Arial, sans-serif;
+    line-height: 24px;
+    text-align: center;
+    margin: 0; color: #2581b0;
+}
+.date_month{
+    font-size: 16px; 
+    font-family: 'proxima_nova_regular', Arial, sans-serif; 
+    line-height: 17px;
+    text-align: center;
+    margin: 0;
+    color: #2581b0;
+}
+
+.post_wrap{
+    background: #ffffff;
+    box-shadow: 0 3px 3px #cfe2ec; -moz-box-shadow: 0 3px 3px #cfe2ec; -webkit-box-shadow: 0 3px 3px #cfe2ec; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px;
+    padding: 25px 25px 22px;
+    width: 79%;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+    margin: auto;
+    overflow: hidden;
+}
+.postl{
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.post_thumb_img{ 
+    width: 370px; height: 240px;
+}
+
+.postr{
+    float: right; width: 50%;
+    padding: 12px 0 0 25px;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+.postr h2, .postr_single h2{
+    font-family: 'proxima_nova_semibold', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0 0 10px;
+    color: #2581b0;
+}
+
+.postr_single h2 {
+    line-height: 25px ! important;
+    margin: 24px 0 10px ! important;
+}
+.postr p, .postr_single p{
+    font-family: 'proxima_nova_regular', Arial, sans-serif; 
+    font-size: 14px; 
+    line-height: 20px; margin: 0 0 10px;
+    color: #5c6c8d;
+}
+.postr a{
+    text-decoration: underline;
+    /* font-style: italic; */
+    color: #2581b0;
+    font-family: 'proxima_nova_regular', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.loadmore{
+    text-align: center;
+    margin: 0;
+    position: relative;
+    padding: 20px 0;
+}
+.loadmore a{
+    color: #57c184;
+    font-size: 20px;
+    line-height: 54px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 11px 34px;
+    white-space: nowrap;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #ffffff;
+    font-family: 'proxima_nova_semibold', Arial, sans-serif;
+    box-shadow: 0 3px 3px #cfe2ec; -moz-box-shadow: 0 3px 3px #cfe2ec; -webkit-box-shadow: 0 3px 3px #cfe2ec;
+    text-align: center;
+    margin: auto auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.loadmore a:hover{
+    background: #57c184;
+    color: #ffffff;
+
+}
+
+
+.next_prev{
     text-align: center;
     position: relative;
-    top: 40%;
+    background: #fff;
+    /* -webkit-border-radius: 50px; */ 
+    -moz-border-radius: 50px; 
+    border-radius: 50px;
+    width: 120px;
+    margin: auto auto;
+    padding: 8px 10px;
+    height: 56px;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+    box-shadow: 0 3px 3px #cfe2ec; -moz-box-shadow: 0 3px 3px #cfe2ec; -webkit-box-shadow: 0 3px 3px #cfe2ec;
 }
 
-.mkspost-wrap{
-     border-top: 1px solid #dae3e8;
-    margin-top: 10%;
-    position: relative;
+.prev{float: left; width: 40px;}
+.next{float: right; width: 40px;}
+
+.prev, .next, .prev a, .next a{text-decoration: none;}
+
+
+.next_prev a:hover{
+    background: #57c184;
+    color: #ffffff;
+
 }
-.mkspost-wrap h4{
-      background: none repeat scroll 0 0 #fff;
-    color: #3c6d86;
-    font-size: 13px;
-    margin-left: -2px;
-    padding: 0 8px 0 0;
-    position: absolute;
-    top: -22px;
+
+.next_prev_icon {
+    color: #57c184;
+    font-size: 28px;
+    width: 40px;
+    background: #e4eef3;
+    height: 40px;
+    -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%;
+    display: table-cell; vertical-align: middle;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
-.mkspost-wrap span{
-      margin-right: 6px;
-    position: relative;
-    top: -3px;
+
+.next_prev_icon:hover{
+    background: #57c184;
+    color: #ffffff;
 }
-.mkspost-wrap h2{
-    color: #4799c3;
-    font-size: 20px;
-    font-family: proxima_nova_semibold;
+
+
+.load_padding{height: 65px;}
+
+
+/*Post Single*/
+
+.postl_single{
+    width: 100%;
+    margin: 0 0 25px;
 }
-.mkspost-wrap p{
-    color: #313131;
-    font-size: 15px;
-    font-family: proxima_nova_light;
+.postr_single{}
+.post_img{width: 100%; height: auto; -webkit-border-radius: 3px 3px 3px 3px; border-radius: 3px 3px 3px 3px;}
+
+.btn_action{
+    margin: 55px 0 40px;
 }
-.mkspost-wrap a{
-    text-decoration: none;
+.btn_action_wrap{
+    width: 600px;
+    margin: auto;
 }
-.category-container{
- background: #eaf0f5;
- width: 96%;                                           
- padding: 20px 30px;                                           
- min-height: 299px;                                           
- margin: 27px 0;                                           
+.btn_action_l{
+    width: 277px; float: left;
 }
-.category-container h2{
-    color: #437ca0;
-    font-family: proxima_nova_semibold;
+
+.btn_action_l a, .btn_action_r a{text-decoration: none;}
+.btn_action_r{
+    width: 277px; 
+    float: right;
+}
+
+.prdemo{
+    background: #1d77ef; /* Old browsers */
+    background: -moz-linear-gradient(left,  #1d77ef 0%, #81f3fd 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1d77ef), color-stop(100%,#81f3fd)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #1d77ef 0%,#81f3fd 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #1d77ef 0%,#81f3fd 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #1d77ef 0%,#81f3fd 100%); /* IE10+ */
+    background: linear-gradient(to right,  #1d77ef 0%,#81f3fd 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d77ef', endColorstr='#81f3fd',GradientType=1 ); /* IE6-9 */
+
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+    width: 277px;
+    padding: 18px 23px;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    overflow: hidden;
+}
+
+
+
+.chat_sr{
+    overflow: hidden;
+    background: #0387af; /* Old browsers */
+    background: -moz-linear-gradient(left,  #0387af 0%, #1b7c9e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#0387af), color-stop(100%,#1b7c9e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #0387af 0%,#1b7c9e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #0387af 0%,#1b7c9e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #0387af 0%,#1b7c9e 100%); /* IE10+ */
+    background: linear-gradient(to right,  #0387af 0%,#1b7c9e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0387af', endColorstr='#1b7c9e',GradientType=1 ); /* IE6-9 */
+
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+    width: 277px;
+    padding: 18px 23px;
+    -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
+
+.chat_sr_text{
+        color: #ffffff;
+    float: left;
+    width: 167px;
     font-size: 18px;
-    margin: 0;
-    text-transform: uppercase;
+    line-height: 20px;
+    top: 6px;
+    position: relative;
 }
-.category-container ul {
-    border-bottom: 1px solid #fff;
-    border-top: 1px solid #d8e1eb;
-    list-style: none outside none;
-    margin: 20px 0;
-    padding: 0;
+.prdemo_text{
+    color: #ffffff;
+    float: left;
+    width: 167px;
+    font-size: 18px;
+    line-height: 20px;
+    top: 6px;
+    position: relative;
 }
- .category-container ul li {
-    border-bottom: 1px solid #d8e1eb;
-    border-top: 1px solid #fff;
-    line-height: 36px;
+.chat_sr_icon{
+        color: #ffffff;
+    font-size: 50px;
+    width: 62px;
+    float: right;
+}
+.prdemo_icon{
+    color: #ffffff;
+    font-size: 50px;
+    width: 62px;
+    float: right;
 }
 
-.category-container ul li a {
 
+/*menu*/
+
+.m_icon{font-size: 28px;width: 34px;display: none;}
+.menu_icon{}
+.menus{}
+.menus_content{display:inline;}
+ul.menus{}
+ul.menus li{}
+ul.menus li a{
+    float: left;
+    padding: 0px 30px 0px 0px;
+    color: #4799c3;
     text-decoration: none;
-}
-
-.my_date{
-    margin-left: 11px;
-}
-.breadCrum{
- margin: 30px 0;
-    padding: 0 15px;
-}
-.breadCrum a , .breadCrum span{
-    color : #afc1d0;
-    text-decoration: none;
-}
-.bdactive{
-    color: #3c6d86 !important;
+    text-transform: capitalize;
+    transition: color .4s ease-in-out;
+    -moz-transition: color .4s ease-in-out;
+    -webkit-transition: color .4s ease-in-out;
+    -o-transition: color .4s ease-in-out;
     font-size: 13px;
+    font-family: 'proxima_nova_regular', Arial, sans-serif;
 }
+
+
+/*new menu*/
+
+
+.nav-collapse a {
+color: #4799c3;
+text-decoration: none;
+margin: 0 30px 0 0;
+font-size: 13px;
+font-family: 'proxima_nova_regular', Arial, sans-serif;
+}
+
+
+.nav-collapse li {
+color: #4799c3;
+font-weight: 200;
+text-decoration: none;
+text-transform: capitalize;
+transition: color .4s ease-in-out;
+-moz-transition: color .4s ease-in-out;
+-webkit-transition: color .4s ease-in-out;
+-o-transition: color .4s ease-in-out;
+font-size: 14px;
+}
+
+
+.menu_fl_r{
+    float: right;
+}
+.menu_fl_r a{
+    margin: 0 0px 0 30px;
+}
+
+
 .mksblog-request-demo {
-    background: url('//www.makesbridge.com/wp-content/uploads/2014/10/1.jpg');
+    background: url('http://www.makesbridge.com/wp-content/uploads/2014/10/1.jpg');
     width: 290px;
     height: 89px;
 }.mksblog-chat {
-    background: url('//www.makesbridge.com/wp-content/uploads/2014/10/2.jpg');
+    background: url('http://www.makesbridge.com/wp-content/uploads/2014/10/2.jpg');
     width: 290px;
     height: 89px;
      margin: 20px 0;
@@ -457,17 +807,31 @@ blockquote {
 .category a:hover{
     text-decoration: none;
 }
-.ajaxLoad{
-    width: 200px;
+
+.related_post_wrap {
+    float: left;
+    margin-right: 10px;
+    padding: 10px !important;
+    width: 32.45% !important;
+}
+.related_post_wrap:last-child{
+     margin-right: 0px;
+
+}
+.related-post-container{
     margin: 0 auto;
+    width: 79%;
 }
-.ajaxLoad > button {
-    background: none repeat scroll 0 0 #36c2c1;
-    border: medium none;
-    border-radius: 4px;
-    color: #fff;
-   padding: 10px 60px;
+.related_post_wrap h4{
+   font-family: proxima_nova_semibold;
+    font-size: 16px;
+    height: 38px;
+    overflow: hidden;
+    text-align: center;
 }
-#load_more {
-    min-width: 188px; 
+.post_img{
+    min-height: 152px;
+}
+.relate_img{
+    max-height: 152px
 }
